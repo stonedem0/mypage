@@ -9,7 +9,7 @@ var options = {
 };
 
 grained("#headerwrap", options);
-// grained("#f", options);
+//grained("#f", options);
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
@@ -23,4 +23,14 @@ $(function () {
   });
 
    }
+ });
+
+ $(window).on('load', function () {
+    setTimeout(function(){
+      $(".wrapper").fadeOut("slow");
+      // var $preloader = $('#page-preloader'),
+      //     $spinner   = $preloader.find('.spinner');
+      // $spinner.fadeOut();
+      // $preloader.delay(350).fadeOut('slow');
+    }, 1000);
  });
