@@ -1,15 +1,15 @@
 var options = {
   "animate": true,
-  "patternWidth": 495.87,
-  "patternHeight": 500,
-  "grainOpacity": 0.07,
-  "grainDensity": 1.39,
-  "grainWidth": 1,
-  "grainHeight": 1
+   "patternWidth": 463.87,
+   "patternHeight": 474.67,
+   "grainOpacity": 0.01,
+   "grainDensity": 1,
+   "grainWidth": 2.89,
+   "grainHeight": 1
 };
 
-grained("#headerwrap", options);
-//grained("#f", options);
+ // grained("#headerwrap", options);
+ // grained("#aboutskills", options);
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
@@ -28,6 +28,21 @@ $(function () {
  $(window).on('load', function () {
     setTimeout(function(){
       $(".wrapper").fadeOut("slow");
+
+      setTimeout(function functionName() {
+        var typeObject = $('.types');
+        typeObject.typist({
+            speed: 8
+        });
+        typeObject.typistAdd('hello, world!', function () {
+          typeObject.typistRemove("");
+          typeObject.typistAdd('Another text', function () {
+
+          });
+        });
+
+      }, 500);
+
       // var $preloader = $('#page-preloader'),
       //     $spinner   = $preloader.find('.spinner');
       // $spinner.fadeOut();

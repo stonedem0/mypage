@@ -1,0 +1,54 @@
+@media screen and (max-width: 960px) {
+    .helloblock p {
+        width: 130px;
+        font-size: 35px;
+        float: left;
+    }
+    .helloblock .visible ul {
+        font-size: 35px;
+        white-space: nowrap;
+        padding-left: 160px;
+      }
+      .sayhello .content {
+        text-align: left;
+      }
+      .sayhello .visible:after, .visible:before {
+          font-size: 35px;
+     }
+}
+@media screen and (max-width: 768px) {
+    .helloblock p {
+        width: 169px;
+        font-size: 35px;
+        float: left;
+    }
+    .sayhello .visible ul {
+        font-size: 35px;
+        white-space: nowrap;
+        padding-left: 160px;
+      }
+      .sayhello .content {
+        text-align: left;
+      }
+      .sayhello .visible:after, .visible:before {
+          font-size: 35px;
+     }
+}
+@media screen and (max-width: 524px) {
+    .sayhello .visible p {
+        width: 60px;
+        font-size: 18px;
+        float: left;
+    }
+    .sayhello .visible ul {
+        font-size: 18px;
+        white-space: nowrap;
+        padding-left: 60px;
+    }
+  .sayhello .content {
+    text-align: left;
+  }
+ .sayhello .visible:after, .visible:before {
+     font-size: 18px;
+}
+}
