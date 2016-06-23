@@ -1,0 +1,14 @@
+{
+  "name": "1em",
+  "authors": [
+    "Asya Lem"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "typed.js": "^1.1.1"
+  }
+}

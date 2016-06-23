@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color:#212121 ;
     font-family: 'Inconsolata'
     font-weight: 300;
     font-size: 16px;
@@ -9,27 +9,17 @@ body {
 }
 
 
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/* ==========================================================================
-   hello
-   ========================================================================== */
-
+/*================================helloblock==============================*/
 .sayhello {
-    background: #212121;
+
     text-align: center;
     background-attachment: relative;
     background-position: center center;
     min-height: 700px;
     width: 100%;
+
+    top: 50%;
+    left: 50%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -39,173 +29,34 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 23px;
-    line-height: 40px;
-    /*font-family: 'Inconsolata';*/
-    font-family: Menlo, monospace;
-    color: #ecf0f1;
-    height: 160px;
-    overflow: hidden;
 
-}
-.visible {
-    font-weight: 400;
-    overflow: hidden;
-    height: 40px;
-    padding: 0 40px;
-}
-.visible:before {
+.types:before {
     content: '<';
     left: 0;
     line-height: 40px;
 }
-.visible:after {
+.types:after {
     content: '>';
-    position: absolute;
-    right: 0;
     line-height: 40px;
 }
-.visible:after, .visible:before {
-    position: absolute;
-    top: 0;
-    color: #65C4D6;
-    font-size: 23px;
-    -webkit-animation: 2s linear 0s normal none infinite opacity;
-    animation: 2s linear 0s normal none infinite opacity;
-}
-.visible p {
-    line-height: 40px;
-    display: inline;
-    float: left;
-    margin: 0;
-    color: #65C4D6;
-}
-ul {
-    margin-top: 0;
-    margin-bottom: 35px;
-    padding-left: 146px;
-    text-align: left;
-    list-style: none;
-    -webkit-animation: 6s linear 0s normal none infinite change;
-    animation: 6s linear 0s normal none infinite change;
-}
-ul li {
-    line-height: 40px;
-    max-height: 40px;
-    margin: 0px;
+
+.types {
+  margin: auto;
+  top: 50%;
+  line-height: 100vh;
+  font-family:Menlo, monospace;
 }
 
-ul li .colorword1 {
- color:#D28B4E;
-
+.typed-cursor {
+  display: none;
 }
-
-ul li .colorword {
-  color: #A6CCE7;
-}
-@-webkit-keyframes opacity {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-@keyframes opacity {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-@-webkit-keyframes change {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  29% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  34% {
-    -webkit-transform: translateY(-33%);
-            transform: translateY(-33%);
-  }
-  61% {
-    -webkit-transform: translateY(-33%);
-            transform: translateY(-33%);
-  }
-  66% {
-    -webkit-transform: translateY(-66%);
-            transform: translateY(-66%);
-  }
-  94% {
-    -webkit-transform: translateY(-66%);
-            transform: translateY(-66%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-@keyframes change {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  29% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  34% {
-    -webkit-transform: translateY(-33%);
-            transform: translateY(-33%);
-  }
-  61% {
-    -webkit-transform: translateY(-33%);
-            transform: translateY(-33%);
-  }
-  66% {
-    -webkit-transform: translateY(-66%);
-            transform: translateY(-66%);
-  }
-  94% {
-    -webkit-transform: translateY(-66%);
-            transform: translateY(-66%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-
-/*.porcentagem {
-  font-family: 'Inconsolata';
-  z-index:3;
-  position:relative;
-  padding-right:15px;
-  margin-top:15px;
-  float:right;
-  text-shadow: none;
-  color: #fff;
-  font-family:'Lato-Regular', sans-serif;
-  font-size:18px;
-}
-
-
 
 /*=====================about ===================*/
 .aboutmyself {
-/*font-family: 'Inconsolata';*/
 font-family: Menlo, monospace;
+width: 50%;
+margin: 0 auto;
+text-align: left;
 }
 .aboutskills {
     background: #212121;
@@ -228,151 +79,112 @@ font-family: Menlo, monospace;
     background-size: cover;
 }
 
-
-/* MENU CONF*/
-/*.menu {
-    position: fixed;
-    right: -200px;
-    width: 260px;
-    height: 100%;
-    top: 0;
-    z-index: 10;
-    text-align: left;
+.reality{
+  font-weight: 100;
 }
-.menu.menu-open {
-    right: 0px;
-}
-.menu-wrap {
-    position: absolute;
-    top: 0;
-    left: 60px;
-    background: #1a1a1a;
-    width: 200px;
-    height: 100%;
-}
-.menu h1.logo a {
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-top: 20px;
-}
-.menu h1.logo a:hover {
-    color: #f85c37;
-}
-.menu img.logo {
-    margin: 20px 0;
-    max-width: 160px;
-}
-.menu a {
-    margin-left: 20px;
-    color: #808080;
-    display: block;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
-.menu a:hover {
-    color: #ffffff;
-}
-.menu a:active {
-    color: #ffffff;
-}
-.menu a > i {
-    float: left;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-    width: 25px;
-    font-size: 14px;
-    line-height: 40px;
-    margin: 25px 2px;
-}
-.menu-close {
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 14px;
-    color: #808080;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    top: 20px;
-    right: 5px;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
-}
-.menu-close:hover {
-    color: #ffffff;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+.colortext {
+  color: #AAB1B9;
 }
 
-/* Push the body after clicking the menu button */
-/*.body-push {
-    overflow-x: hidden;
-    position: relative;
-    left: 0;
-}
-.body-push-toright {
-    left: 200px;
-}
-.body-push-toleft {
-    left: -200px;
-}
-.menu, .body-push {
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-}
-#menuToggle {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    z-index: 11;
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.25);
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
-}
-#menuToggle:hover {
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.2);
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
-}*/
+/
 .barWrapper ..tooltip.top {
     display: none !important;
 }
 
+/*===============================progress bar====================================*/
+.tooltip {
+    /*position: relative;
+            float: right;*/
+    display: none;
+}
 
-/*preloader2*/
+/*.tooltip > .tooltip-inner {
+    background-color: #7e57c2;
+    padding: 5px 15px;
+    color: rgb(23, 44, 66);
+    font-weight: bold;
+    font-size: 13px;*/
+
+    /*opacity: 1*/
+}
+
+.popOver + .tooltip > .tooltip-arrow {
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid #7e57c2;
+    /*opacity: 0.7*/
+}
+
+.progress {
+    border-radius: 0;
+    overflow: visible;
+    background-color: rgba(126, 87, 194, 0);
+    box-shadow: inset 0 0px;
+    height: 17px;
+
+
+}
+
+.progress-bar {
+    background: #7e57c2;
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+
+
+}
+
+.tooltip {
+    display: none !important;
+}
+.barWrapper1 {
+  padding: 12px;
+  font-family: Menlo, monospace;
+  color: #12C6C1;
+  text-align: left;
+
+
+}
+.barWrapper1 .progress-bar {
+background: #12C6C1;
+}
+.barWrapper2 {
+  padding: 12px;
+  font-family: Menlo, monospace;
+  color: #BA41B3;
+  text-align: left;
+
+
+}
+.barWrapper2 .progress-bar {
+background: #BA41B3;
+}
+.barWrapper3 {
+  padding: 12px;
+  font-family:Menlo, monospace;
+  color:#E1B066;
+  text-align: left;
+
+
+}
+.barWrapper3 .progress-bar {
+background: #E1B066;
+}
+
+.barWrapper4 {
+  padding: 12px;
+  font-family: Menlo, monospace;
+  color:#6F66E1;
+  text-align: left;
+
+
+}
+.barWrapper4 .progress-bar {
+background: #6B64C4;
+}
+
+
+
+/*============================preloader2========================*/
 .wrapper {
     margin: auto;
     width: 100%;
@@ -465,103 +277,4 @@ font-family: Menlo, monospace;
         -moz-transform: scale(1);
         opacity: 0;
     }
-}
-
-/*hello*/
-
-*/
-
-
-
-
-
-/*===============================progress bar====================================*/
-.tooltip {
-    /*position: relative;
-            float: right;*/
-    display: none;
-}
-
-/*.tooltip > .tooltip-inner {
-    background-color: #7e57c2;
-    padding: 5px 15px;
-    color: rgb(23, 44, 66);
-    font-weight: bold;
-    font-size: 13px;*/
-
-    /*opacity: 1*/
-}
-
-.popOver + .tooltip > .tooltip-arrow {
-    border-left: 0px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 0px solid #7e57c2;
-    /*opacity: 0.7*/
-}
-
-.progress {
-    border-radius: 0;
-    overflow: visible;
-    background-color: rgba(126, 87, 194, 0);
-    box-shadow: inset 0 0px;
-    height: 17px;
-
-
-}
-
-.progress-bar {
-    background: #7e57c2;
-    -webkit-transition: width 1.5s ease-in-out;
-    transition: width 1.5s ease-in-out;
-
-
-}
-
-.tooltip {
-    display: none !important;
-}
-.barWrapper1 {
-  padding: 12px;
-  font-family: Menlo, monospace;
-  color: #12C6C1;
-  text-align: left;
-
-
-}
-.barWrapper1 .progress-bar {
-background: #12C6C1;
-}
-.barWrapper2 {
-  padding: 12px;
-  font-family: Menlo, monospace;
-  color: #BA41B3;
-  text-align: left;
-
-
-}
-.barWrapper2 .progress-bar {
-background: #BA41B3;
-}
-.barWrapper3 {
-  padding: 12px;
-  font-family:Menlo, monospace;
-  color:#E1B066;
-  text-align: left;
-
-
-}
-.barWrapper3 .progress-bar {
-background: #E1B066;
-}
-
-.barWrapper4 {
-  padding: 12px;
-  font-family: Menlo, monospace;
-  color:#6F66E1;
-  text-align: left;
-
-
-}
-.barWrapper4 .progress-bar {
-background: #6B64C4;
 }

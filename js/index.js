@@ -25,21 +25,39 @@ $(function () {
    }
  });
 
+ var startWordTypewriting = function () {
+   var typeObject = $('.types');
+
+   var text1 = 'hello, world!';
+   typeObject.typed( {strings: ["Typed.js is a <strong style='color:red'>jQuery</strong> plugin."]});
+  //  typeObject.typistAdd(text1);
+  //  typeObject.typistPause(1000);
+  //  typeObject.typistRemove(text1.length);
+  //  var text2 = "/i'm Asya Lem";
+  //  typeObject.typistAdd(text2);
+  //  typeObject.typistPause(1000);
+  //  typeObject.typistRemove(text2.length);
+  //  var text3 = "web-designer";
+  //  typeObject.typistAdd(text3);
+  //  typeObject.typistPause(2000);
+  //  typeObject.typistRemove(text3.length, function () {
+  //    startWordTypewriting();
+  //  });
+
+
+
+ };
+
  $(window).on('load', function () {
     setTimeout(function(){
       $(".wrapper").fadeOut("slow");
 
       setTimeout(function functionName() {
-        var typeObject = $('.types');
-        typeObject.typist({
-            speed: 8
-        });
-        typeObject.typistAdd('hello, world!', function () {
-          typeObject.typistRemove("");
-          typeObject.typistAdd('Another text', function () {
-
-          });
-        });
+        // var typeObject = $('.types');
+        // typeObject.typist({
+        //     speed: 6
+        // });
+        startWordTypewriting();
 
       }, 500);
 
