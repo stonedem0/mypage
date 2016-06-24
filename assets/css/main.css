@@ -45,6 +45,7 @@ body {
   top: 50%;
   line-height: 100vh;
   font-family:Menlo, monospace;
+  color: #43BCDA;
 }
 
 .typed-cursor {

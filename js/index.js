@@ -28,12 +28,31 @@ $(function () {
  var startWordTypewriting = function () {
    var typeObject = $('.types');
 
-   var text1 = 'hello, world!';
-   typeObject.typed( {strings: ["Typed.js is a <strong style='color:red'>jQuery</strong> plugin."]});
+   var text1 = 'web-designer';
+   typeObject.typed( {strings:
+     ["Hello  <span style='color:#E89B5C'>world!</span>",
+   "i'm <span style='color:#E89B5C'>Asya Lem </span>", text1
+ ],
+   typeSpeed: 50,
+   backDelay: 1500,
+   backSpeed: 12,
+   loop: true,
+
+});
+
+// var text2 = 'hello, world!';
+// typeObject.typed({
+//    strings: ["Typed.js is a <strong style='color:red'>jQuery</strong> plugin."],
+//    typeSpeed: 0,
+//    backSpeed: 0
+// });
+
+
+
   //  typeObject.typistAdd(text1);
   //  typeObject.typistPause(1000);
   //  typeObject.typistRemove(text1.length);
-  //  var text2 = "/i'm Asya Lem";
+    // var text2 = "/i'm Asya Lem";
   //  typeObject.typistAdd(text2);
   //  typeObject.typistPause(1000);
   //  typeObject.typistRemove(text2.length);
