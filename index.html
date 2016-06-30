@@ -18,129 +18,177 @@
     <link href="/assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link href="/assets/css/mediaqueries.css" rel="stylesheet" />
+    <link rel="stylesheet" herf="assets/css/onepage-scroll.css" />
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <script src="/assets/js/jquery.min.js"></script>
     <script src="./bower_components/typed.js/dist/typed.min.js"></script>
+    <script src="assets/js/jquery.onepage-scroll.min.js"></script>
 
 
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#theMenu">
-    <!-- <div id="page-preloader"><span class="spinner"></span></div> -->
+<body>
+  <!--===========PRE-LOADER==========-->
     <div class="wrapper">
         <div class="cssload-loader"></div>
     </div>
 
-    <!-- Menu -->
-    <nav class="menu" id="theMenu">
-        <!-- <div class="menu-wrap">
-            <h1 class="logo"><a href="index.html#home"></a></h1>
-            <i class="icon-remove menu-close"></i>
-            <a href="#home" class="smoothScroll">Home</a>
-            <a href="#about" class="smoothScroll">About</a>
-            <a href="#portfolio" class="smoothScroll">Portfolio</a>
-            <a href="#contact" class="smoothScroll">Contact</a>
-            <a href="#"><i class="icon-facebook"></i></a>
-            <a href="#"><i class="icon-twitter"></i></a>
-            <a href="#"><i class="icon-dribbble"></i></a>
-            <a href="#"><i class="icon-envelope"></i></a>
-        </div>
-
-        Menu button -->
-        <!-- <div id="menuToggle"><i class="icon-reorder"></i></div> -->
-    </nav>
-
-
-
     <!-- ========== HEADER SECTION ========== -->
-    <section id="home" name="home"></section>
-    <div class=sayhello>
-        <div>
-            <p class="types">
-            </p>
+    <!-- <div class="scroll"> -->
+        <section id="home" name="home"></section>
+        <div class=sayhello>
+            <div>
+                <p class="types">
+                </p>
+                <!-- <a href="#about"><div class="scroll-down"></div></a> -->
+            </div>
         </div>
-        <!-- <div class="container-fluid">
-            <div class="content helloblock">
-                <div class="visible">
-                    <p>hello</p>
-                    <ul>
-                        <li><span class="colorword1">world!</span></li>
-                        <li><span class="colorword">i'm</span> <span class="colorword1">Asya Lem</span></li>
-                        <li><span class="colorword1">web designer</span></li>
-                    </ul>
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section id="about" name="about"></section>
+        <div class="aboutskills">
+            <div class="row">
+                <div class="aboutbox">
+                    <p class="aboutmyself">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="ellipses">
+                      ...
+
+                    </div>
                 </div>
             </div>
-
-
-        </div> -->
-
-    </div>
-
-
-    <!-- ========== ABOUT SECTION ========== -->
-    <section id="about" name="about"></section>
-    <div class="aboutskills">
-
-        <div class="row">
-            <div class="col-md-12">
-                <p class="aboutmyself">
-                    &lt;chinwag class= very interesting&gt;"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."&lt;/chinwag&gt;
+            <div class="reality">
+<!-- <span class="ellipses">	&hellip;</span> -->
+                <p class="myskills">
+                    my skills
                 </p>
-
+            </div>
+            <div class="progress-bars" class="row">
+                <div class="col-md-6">
+                    <ol>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>HTML5/CSS3<span class=colortext>:
+                          <span class="triangle">&#9654;</span>33%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>JavaScript/jQuery<span class=colortext>:
+                          <span class="triangle">&#9654;</span>13%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>Adobe Illustrator/Photoshop/Sketch <span class=colortext1>:
+                          <span class="triangle">&#9654;</span>66%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="porcentagem ">95%</span> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>Git <span class=colortext1>:
+                          <span class="triangle">&#9654;</span>7%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <ol>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>HTML5/CSS3<span class=colortext>:
+                          <span class="triangle">&#9654;</span>100%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>JavaScript/jQuery<span class=colortext>:
+                          <span class="triangle">&#9654;</span>100%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>Adobe Illustrator/Photoshop/Sketch <span class=colortext1>:
+                          <span class="triangle">&#9654;</span>100%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="porcentagem ">95%</span> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper1">
+                            <span class="progressText"><B>Git <span class=colortext1>:
+                          <span class="triangle">&#9654;</span>100%;</span>
+                            </B>
+                            </span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-
-
-            <div class="col-md-6" class="reality">
-                <ol>
-
-
-                    <div class="barWrapper1">
-                        <span class="progressText"><B>HTML5/CSS3<span class=colortext>:33%</span></B>
-                        </span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="barWrapper2">
-                        <span class="progressText"><B>JavaScript/jQuery</B></span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="barWrapper3">
-                        <span class="progressText"><B>Adobe Illustrator/Photoshop/Sketch</B></span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                                <!-- <span class="porcentagem ">95%</span> -->
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="barWrapper4">
-                        <span class="progressText"><B>Git</B></span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-
-
-
+    <!-- <div class="comment">
+      <p>
+    okay , I really like the exact numerals
+  </p>
+    </div> -->
 
     <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" name="contact">
+    <div class="contact">
+      <p>
+        contact me
+      </p>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-4">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
 
+            </div>
+
+    </div>
+    </section>
 
 
     <!-- Bootstrap core JavaScript

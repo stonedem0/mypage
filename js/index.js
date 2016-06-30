@@ -31,7 +31,7 @@ $(function () {
    var text1 = 'web-designer';
    typeObject.typed( {strings:
      ["Hello  <span style='color:#E89B5C'>world!</span>",
-   "i'm <span style='color:#E89B5C'>Asya Lem </span>", text1
+   "i'm <span style='color:#E89B5C'>Asya Lem</span>", text1
  ],
    typeSpeed: 50,
    backDelay: 1500,
@@ -86,3 +86,22 @@ $(function () {
       // $preloader.delay(350).fadeOut('slow');
     }, 1000);
  });
+
+
+ // Scroll Down
+ // $(".scroll").onepage_scroll({
+ //    sectionContainer: "section",
+ //    easing: "ease",
+ //
+ //    animationTime: 1000,
+ //    pagination: true,
+ //    updateURL: false,
+ //    beforeMove: function(index) {},
+ //    afterMove: function(index) {},
+ //    loop: false,
+ //    keyboard: true,
+ //    responsiveFallback: false,
+ //
+ //
+ //    direction: "vertical"
+ // });
