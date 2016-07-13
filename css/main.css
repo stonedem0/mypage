@@ -1,53 +1,34 @@
 body {
     background-color: #1f2127;
-    font-family: 'Droid Sans Mono', Menlo, monospace ;
+    font-family: 'Droid Sans Mono', Menlo, monospace;
     font-weight: 300;
     font-size: 14px;
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-section {
-    /*height: 100%;*/
-}
 
 /*================================helloblock==============================*/
 
 .sayhello {
     text-align: center;
-    background-attachment: relative;
-    background-position: center center;
     min-height: 700px;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
-.types:before {
-    content: '<';
-    left: 0;
+.typewriting {
+    margin: auto;
+    line-height: 100vh;
+    font-size: 18pt;
+    color: #b5b5b5;
+}
+.typewriting::before {
+    content: '< ';
     line-height: 40px;
     color: #b5b5b5
 }
-.types:after {
-    content: '>';
+.typewriting::after {
+    content: ' >';
     line-height: 40px;
     color: #b5b5b5;
-}
-.types {
-    margin: auto;
-    top: 50%;
-    line-height: 100vh;
-    font-family: Menlo, monospace;
-    color: #b5b5b5;
-    font-size: 18pt;
 }
 .typed-cursor {
     display: none;
@@ -56,29 +37,15 @@ section {
 /*=====================about ===================*/
 
 .aboutskills {
-    background: #24262d padding-top: 70px;
     padding-bottom: 70px;
-    text-align: center margin-top: -10px;
     padding-top: 20px;
     text-align: center;
-    background-attachment: relative;
-    background-position: center center;
     min-height: 700px;
-    width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 /* About Block */
 
 .aboutsection {
-    font-family: 'Droid Sans Mono', Menlo, monospace;
     color: rgb(181, 181, 181);
     margin-top: 7em;
 }
@@ -90,6 +57,7 @@ section {
     color: #E59C5E;
     background-color: #272a33;
 }
+
 .aboutblock {
   padding-left: 11%;
   padding-right: 11%;
@@ -102,6 +70,7 @@ section {
     color: #b5b5b5;
     font-size: 12pt;
 }
+
 .bracket-close {
   color: #b5b5b5;
   font-size: 12pt;
@@ -109,35 +78,14 @@ section {
   padding-left: 5%;
 
 }
+
 .myskills {
     display: block;
     margin-left: -6%;
     color: #E59C5E;
     text-align: left;
-    font-family: menlo;
     font-size: 12pt;
     margin-top: 5%;
-}
-
-/*.myskills {
-display: block;
-margin-left: 18%;
-color: #E59C5E;
-text-align: left;
-font-family: menlo;
-font-size: 14pt;
-}*/
-
-.colorid {
-    color: #7141EA;
-}
-.ellipses {
-    font-family:'Droid Sans Mono', Menlo, monospace ;
-    font-size: 14px;
-    color: rgba(181, 181, 181, 0.1);
-}
-) / .barWrapper ..tooltip.top {
-    display: none !important;
 }
 
 /*===============================progress bar====================================*/
@@ -148,17 +96,12 @@ font-size: 14pt;
     display: none;
 }
 
-/*.tooltip > .tooltip-inner {
+.tooltip > .tooltip-inner {
     background-color: #7e57c2;
     padding: 5px 15px;
     color: rgb(23, 44, 66);
     font-weight: bold;
-    font-size: 13px;*/
-
-
-/*opacity: 1*/
-
-
+    font-size: 13px;
 }
 .popOver+ .tooltip> .tooltip-arrow {
     border-left: 0px solid transparent;
@@ -175,6 +118,7 @@ font-size: 14pt;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
 .progress-bar {
     background: #61CFD6;
     -webkit-transition: width 1.5s ease-in-out;
@@ -183,183 +127,39 @@ font-size: 14pt;
     -moz-box-shadow: -1px -1px 3px -1px rgba(0, 0, 0, 0.7);
     box-shadow: -1px -1px 3px -1px rgba(0, 0, 0, 0.7);
 }
-.tooltip {
-    display: none !important;
-}
+
 .barWrapper1 {
     padding: 12px;
     font-family: 'Droid Sans Mono', Menlo, monospace;
     color:  #5FC7CD;
     text-align: left;
 }
+
 .barWrapper1 .progress-bar {
     background: #5FC7CD;
 }
+
 .triangle {
     color: #474449;
     margin-left: -1%;
 }
+
 .colortext {
     color: #F3707C;
 }
-.colortext1 {
-    color: #F3707C;
-
-}
-.comment {
-    font-family: 'Droid Sans Mono', Menlo, monospace;
-    font-size: 12px;
-    margin-left: 12%;
-}
 
 /*==========contact===========*/
+
 .contact {
     text-align: center;
-    font-family: 'Droid Sans Mono', Menlo, monospace;
 }
 
-/*============================preloader2========================*/
-.wrapper {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    background-color: #1f2127;
-}
-.cssload-loader {
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
-    margin: 3em;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    background: #272a33;
-}
-.cssload-loader, .cssload-loader:before, .cssload-loader:after {
-    animation: 1.15s infinite ease-in-out;
-    -o-animation: 1.15s infinite ease-in-out;
-    -ms-animation: 1.15s infinite ease-in-out;
-    -webkit-animation: 1.15s infinite ease-in-out;
-    -moz-animation: 1.15s infinite ease-in-out;
-}
-.cssload-loader:before, .cssload-loader:after {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.cssload-loader {
-    animation-name: cssload-loader;
-    -o-animation-name: cssload-loader;
-    -ms-animation-name: cssload-loader;
-    -webkit-animation-name: cssload-loader;
-    -moz-animation-name: cssload-loader;
-}
-@keyframes cssload-loader {
-    from {
-        transform: scale(0);
-        opacity: 1;
-    }
-    to {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-@-o-keyframes cssload-loader {
-    from {
-        -o-transform: scale(0);
-        opacity: 1;
-    }
-    to {
-        -o-transform: scale(1);
-        opacity: 0;
-    }
-}
-@-ms-keyframes cssload-loader {
-    from {
-        -ms-transform: scale(0);
-        opacity: 1;
-    }
-    to {
-        -ms-transform: scale(1);
-        opacity: 0;
-    }
-}
-@-webkit-keyframes cssload-loader {
-    from {
-        -webkit-transform: scale(0);
-        opacity: 1;
-    }
-    to {
-        -webkit-transform: scale(1);
-        opacity: 0;
-    }
-}
-@-moz-keyframes cssload-loader {
-    from {
-        -moz-transform: scale(0);
-        opacity: 1;
-    }
-    to {
-        -moz-transform: scale(1);
-        opacity: 0;
-    }
-}
-
-/*.scroll-down {
-	position: absolute;
-	left: 50%;
-	bottom: 10px;
-	display: block;
-	text-align: center;
-	font-size: 20px;
-	z-index: 100;
-	text-decoration: none;
-	text-shadow: 0;
-  width: 13px;
-  height: 13px;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
-  z-index: 9;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0%) rotate(45deg);
-  -moz-transform: translate(-50%, 0%) rotate(45deg);
-  transform: translate(-50%, 0%) rotate(45deg);
-	-webkit-animation: fade_move_down 4s ease-in-out infinite;
-	-moz-animation:    fade_move_down 4s ease-in-out infinite;
-	animation:         fade_move_down 4s ease-in-out infinite;
-}
-
-
-/*animated scroll arrow animation*/
-
-/*@-webkit-keyframes fade_move_down {
-  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-}
-@-moz-keyframes fade_move_down {
-  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-}
-@keyframes fade_move_down {
-  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
-}*/
 b, strong {
     font-weight: 100;
 }
 
 /*contact*/
+
 .contact {
   margin-top: 12em;
 }
@@ -377,7 +177,6 @@ form p {
 }
 .feedback-input {
     color: #6D6D6D;
-    font-family: 'Droid Sans Mono', Menlo, monospace;
     font-weight: 500;
     font-size: 12px;
     background-color: transparent;
@@ -389,16 +188,18 @@ form p {
     box-sizing: border-box;
     outline: 0;
 }
+
 .feedback-input:focus {
     border: 1px solid #90B762;
 }
+
 textarea {
     height: 150px;
     line-height: 150%;
     resize: vertical;
 }
-[type="submit"] {
-    font-family: 'Droid Sans Mono', Menlo, monospace, Arial, Helvetica, sans-serif;
+
+input[type="submit"] {
     width: 80%;
     background: transparent;
     border: 1px solid #2FAADF ;
@@ -408,25 +209,29 @@ textarea {
     padding-top: 10px;
     padding-bottom: 10px;
     transition: all 0.3s;
-    margin-top: -4px;
     font-weight: 100;
 }
-[type="submit"]:hover {
+input[type="submit"]:hover {
     border: 1px solid #90B762;
     color: #90B762;
 }
+
 .social {
     margin: 0 auto;
 }
+
 a {
     color: #2FAADF
 }
+
 a:hover {
     color: #90B762;
 }
+
 .tg {
     padding-right: 15px;
 }
+
 .onetag {
   margin: 0 auto;
   margin-top: 6em;
@@ -436,11 +241,12 @@ a:hover {
 
 .onetag:before {
     content: '</';
-    left: 0;
     line-height: 40px;
     color: #b5b5b5
 }
+
 .onetag:after {
     content: '>';
     line-height: 40px;
     color: #b5b5b5;
+}

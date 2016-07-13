@@ -17,16 +17,18 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-    <link href="./bower_components/onepage-scroll/onepage-scroll.css" rel="stylesheet"/>
+    <link href="./bower_components/onepage-scroll/onepage-scroll.css" rel="stylesheet" />
 
     <!-- Custom styles -->
     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/mediaqueries.css" rel="stylesheet" />
+    <link href="./css/preloader.css" rel="stylesheet" /
 
 </head>
 
 <body>
     <!--===========PRE-LOADER==========-->
+
     <div class="wrapper">
         <div class="cssload-loader"></div>
     </div>
@@ -34,118 +36,85 @@
     <!-- ========== HEADER SECTION ========== -->
     <div class="scroll">
 
-        <section id="home" name="home">
-            <div class=sayhello>
-                <div>
-                    <p class="types">
-                    </p>
-                    <a href="#about">
-                        <div class="scroll-down"></div>
-                    </a>
-                </div>
+        <section id="home">
+            <div class="sayhello">
+              <p class="typewriting"></p>
             </div>
         </section>
 
         <!-- ========== ABOUT SECTION ========== -->
 
-        <section id="about" name="about">
-            <div class="aboutskills">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="aboutsection">
-                            <div class="aboutheader">.and something about myself
-                                <span class="bracket-open">{</span>
-                            </div>
-                            <div class="aboutblock">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
-                                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                            <div class="bracket-close">}</div>
-                            <!-- <span class="ellipses">.....</span> -->
-                        </div>
-                    </div>
+        <section class="aboutskills">
+            <div class="aboutsection">
+                <div class="aboutheader">.and something about myself
+                    <span class="bracket-open">{</span>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="aboutsection">
-                            <div class="aboutheader">
-                                .my skills <span class="bracket-open">{</span>
-                            </div>
-                            <div class="aboutblock">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="barWrapper1">
-                                            <span class="progressText"><B>HTML5/CSS3:<span class=colortext>
-                            33%</span>
-                                            </B>
-                                            </span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
-                                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="barWrapper1">
-                                            <span class="progressText"><B>JavaScript/jQuery:<span class=colortext>
-                            13%</span>
-                                            </B>
-                                            </span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100">
-                                                    <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="barWrapper1">
-                                            <span class="progressText"><b>Adobe Illustrator/Photoshop/Sketch:<span class=colortext1>
-                                    66%</span>
-                                            </b>
-                                            </span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="barWrapper1">
-                                            <span class="progressText"><B>Git:<span class=colortext1>
-                                    7%</span>
-                                            </B>
-                                            </span>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <div class="bracket-close">}</div>
-                        </div>
-
-                    </div>
-
+                <div class="aboutblock">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
+                <div class="bracket-close">}</div>
             </div>
+            <div class="aboutsection">
+                <div class="aboutheader">
+                    .my skills <span class="bracket-open">{</span>
+                </div>
+                <div class="aboutblock">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="barWrapper1">
+                                <span class="progressText"><B>HTML5/CSS3:<span class=colortext>33%</span>
+                                </B>
+                                </span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+                                        <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="barWrapper1">
+                                <span class="progressText"><B>JavaScript/jQuery:<span class="colortext">13%</span>
+                                </B>
+                                </span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100">
+                                        <!-- <span class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="barWrapper1">
+                                <span class="progressText"><b>Adobe Illustrator/Photoshop/Sketch:<span class="colortext">66%</span>
+                                </b>
+                                </span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="barWrapper1">
+                                <span class="progressText"><b>Git:<span class="colortext">7%</span></b>
+                                </span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bracket-close">}</div>
+            </div>
         </section>
 
-
         <!-- ========== CONTACT SECTION ========== -->
-        <section id="contact" name="contact">
+        <section>
             <div class="contact">
-
-
                 <form action="https://formspree.io/anundam@gmail.com" method="POST">
                     <div class="contactheader">
-                        <p>
-                            contact me
-                        </p>
+                        <p>contact me</p>
                     </div>
                     <input name="name" type="text" class="feedback-input" placeholder="your name" />
                     <input name="_replyto" type="text" class="feedback-input" placeholder="email" />
@@ -153,35 +122,23 @@
                     <input type="submit" value="send" />
                 </form>
                 <div class="row">
-
-                    <div class="col-md-2, social">
+                    <div class="social">
                         <a href="http://telegram.me/technodevochka"><i class="fa fa-paper-plane fa-2x tg" aria-hidden="true"></i></a>
                         <a href="https://www.facebook.com/technodevochka"><i class="fa fa-facebook-official fa-2x fb" aria-hidden="true"></i></a>
                     </div>
-
-
-
                 </div>
                 <div class="onetag">and I forgot to close one tag</div>
             </div>
+        </section>
 
-    </div>
+        <!-- JavaScript -->
+        <script src="./bower_components/jquery/jquery.min.js"></script>
+        <script src="./bower_components/typed.js/dist/typed.min.js"></script>
+        <script src="./bower_components/onepage-scroll/jquery.onepage-scroll.js"></script>
+        <script src="./bower_components/Grained/grained.min.js"></script>
 
-    </section>
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./bower_components/jquery/jquery.min.js"></script>
-    <script src="./bower_components/typed.js/dist/typed.min.js"></script>
-    <script src="./bower_components/onepage-scroll/jquery.onepage-scroll.js"></script>
-    <script src="./bower_components/Grained/grained.min.js"></script>
-
-    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/index.js"></script>
-    <!-- <script src="js/jquery.typist.js"></script> -->
+        <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
 
 </body>
 
