@@ -7,12 +7,20 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+a {
+    color: #2FAADF
+}
+a:hover {
+    color: #90B762;
+}
+b, strong {
+    font-weight: 100;
+}
 
 /*================================helloblock==============================*/
 
 .sayhello {
     text-align: center;
-    min-height: 700px;
 }
 .typewriting {
     margin: auto;
@@ -37,8 +45,6 @@ body {
 /*=====================about ===================*/
 
 .aboutskills {
-    padding-bottom: 70px;
-    padding-top: 20px;
     text-align: center;
     min-height: 700px;
 }
@@ -49,7 +55,6 @@ body {
     color: rgb(181, 181, 181);
     margin-top: 7em;
 }
-
 .aboutheader {
     padding-left: 5%;
     text-align: left;
@@ -57,28 +62,23 @@ body {
     color: #E59C5E;
     background-color: #272a33;
 }
-
 .aboutblock {
-  padding-left: 11%;
-  padding-right: 11%;
-  text-align: left;
-  margin-top: 50px;
-  font-size: 12pt;
+    padding-left: 11%;
+    padding-right: 11%;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 12pt;
 }
-
 .bracket-open {
     color: #b5b5b5;
     font-size: 12pt;
 }
-
 .bracket-close {
-  color: #b5b5b5;
-  font-size: 12pt;
-  text-align: left;
-  padding-left: 5%;
-
+    color: #b5b5b5;
+    font-size: 12pt;
+    text-align: left;
+    padding-left: 5%;
 }
-
 .myskills {
     display: block;
     margin-left: -6%;
@@ -95,8 +95,7 @@ body {
             float: right;*/
     display: none;
 }
-
-.tooltip > .tooltip-inner {
+.tooltip> .tooltip-inner {
     background-color: #7e57c2;
     padding: 5px 15px;
     color: rgb(23, 44, 66);
@@ -127,23 +126,18 @@ body {
     -moz-box-shadow: -1px -1px 3px -1px rgba(0, 0, 0, 0.7);
     box-shadow: -1px -1px 3px -1px rgba(0, 0, 0, 0.7);
 }
-
-.barWrapper1 {
+.progress-bar-wrapper {
     padding: 12px;
-    font-family: 'Droid Sans Mono', Menlo, monospace;
-    color:  #5FC7CD;
+    color: #5FC7CD;
     text-align: left;
 }
 
-.barWrapper1 .progress-bar {
+.progress-bar-wrapper .progress-bar {
     background: #5FC7CD;
 }
-
 .triangle {
     color: #474449;
-    margin-left: -1%;
 }
-
 .colortext {
     color: #F3707C;
 }
@@ -154,20 +148,19 @@ body {
     text-align: center;
 }
 
-b, strong {
-    font-weight: 100;
-}
-
 /*contact*/
 
 .contact {
-  margin-top: 12em;
+    margin-top: 2em;
 }
+
 .contactheader {
-  margin-bottom: 1em;
-  color: #BB6DD1;
-  font-size: 12pt
+    margin-bottom: 1em;
+    color: #BB6DD1;
 }
+
+/* Contact form */
+
 form {
     max-width: 420px;
     margin: 50px auto;
@@ -188,21 +181,18 @@ form p {
     box-sizing: border-box;
     outline: 0;
 }
-
 .feedback-input:focus {
     border: 1px solid #90B762;
 }
-
 textarea {
     height: 150px;
     line-height: 150%;
     resize: vertical;
 }
-
 input[type="submit"] {
     width: 80%;
     background: transparent;
-    border: 1px solid #2FAADF ;
+    border: 1px solid #2FAADF;
     cursor: pointer;
     color: #2FAADF;
     font-size: 16px;
@@ -216,37 +206,27 @@ input[type="submit"]:hover {
     color: #90B762;
 }
 
+/* Social */
+
 .social {
     margin: 0 auto;
 }
-
-a {
-    color: #2FAADF
-}
-
-a:hover {
-    color: #90B762;
-}
-
-.tg {
-    padding-right: 15px;
+.social-button {
+    padding: 0 10px;
 }
 
 .onetag {
-  margin: 0 auto;
-  margin-top: 6em;
-  color: #90B762;
-  font-size: 12pt;
+    margin: 1em auto;
+    color: #90B762;
+    font-size: 12pt;
 }
-
 .onetag:before {
-    content: '</';
+    content: '</ ';
     line-height: 40px;
     color: #b5b5b5
 }
-
 .onetag:after {
-    content: '>';
+    content: ' >';
     line-height: 40px;
     color: #b5b5b5;
 }

@@ -49,6 +49,7 @@ $(".scroll").onepage_scroll({
             });
         }
     },
+    responsiveFallback: 900,
     loop: false,
     direction: "vertical"
 });
