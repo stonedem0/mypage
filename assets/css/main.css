@@ -238,7 +238,7 @@ font-size: 14pt;
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    background: rgb(0, 0, 0);
+    background: #272a33;
 }
 .cssload-loader, .cssload-loader:before, .cssload-loader:after {
     animation: 1.15s infinite ease-in-out;
@@ -366,6 +366,7 @@ b, strong {
 .contactheader {
   margin-bottom: 1em;
   color: #BB6DD1;
+  font-size: 12pt
 }
 form {
     max-width: 420px;
@@ -429,4 +430,17 @@ a:hover {
 .onetag {
   margin: 0 auto;
   margin-top: 6em;
+  color: #90B762;
+  font-size: 12pt;
 }
+
+.onetag:before {
+    content: '</';
+    left: 0;
+    line-height: 40px;
+    color: #b5b5b5
+}
+.onetag:after {
+    content: '>';
+    line-height: 40px;
+    color: #b5b5b5;

@@ -1,54 +1,48 @@
-@media screen and (max-width: 960px) {
-    .helloblock p {
-        width: 130px;
-        font-size: 35px;
-        float: left;
+
+@media screen and (max-width: 320px) {
+    #home p {
+        font-size: 14pt;
     }
-    .helloblock .visible ul {
-        font-size: 35px;
-        white-space: nowrap;
-        padding-left: 160px;
-      }
-      .sayhello .content {
-        text-align: left;
-      }
-      .sayhello .visible:after, .visible:before {
-          font-size: 35px;
-     }
-}
-@media screen and (max-width: 768px) {
-    .helloblock p {
-        width: 169px;
-        font-size: 35px;
-        float: left;
+    .aboutsection {
+        margin-top: 1em;
     }
-    .sayhello .visible ul {
-        font-size: 35px;
-        white-space: nowrap;
-        padding-left: 160px;
-      }
-      .sayhello .content {
-        text-align: left;
-      }
-      .sayhello .visible:after, .visible:before {
-          font-size: 35px;
-     }
-}
-@media screen and (max-width: 524px) {
-    .sayhello .visible p {
-        width: 60px;
-        font-size: 18px;
-        float: left;
+    .aboutheader {
+        font-size: 8pt;
     }
-    .sayhello .visible ul {
-        font-size: 18px;
-        white-space: nowrap;
-        padding-left: 60px;
+    .aboutblock {
+        font-size: 8pt;
+        margin-top: 1em;
     }
-  .sayhello .content {
-    text-align: left;
-  }
- .sayhello .visible:after, .visible:before {
-     font-size: 18px;
-}
-}
+    .bracket-open {
+        font-size: 8pt;
+    }
+    .bracket-close {
+        font-size: 8pt;
+    }
+    .barWrapper1 {
+        padding: 0px;
+    }
+    .progress-bar {
+        height: 55%
+    }
+    .progress {
+      margin-bottom: 1em;
+    }
+    .contact {
+      margin-top: -1em;
+    }
+    .contactheader p {
+      font-size: 10pt;
+    }
+    .feedback-input {
+
+      padding: 8px;
+
+    }
+    .social {
+      margin-top: -28px;
+    }
+    .onetag {
+      margin-top: 17px;
+      font-size: 8pt;
+    }
