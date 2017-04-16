@@ -1,24 +1,11 @@
 
-// Grain stylish
-// var options = {
-//     "animate": true,
-//     "patternWidth": 463.87,
-//     "patternHeight": 474.67,
-//     "grainOpacity": 0.01,
-//     "grainDensity": 1,
-//     "grainWidth": 2.89,
-//     "grainHeight": 1
-// };
-// grained("#home", options);
-// grained("#aboutskills", options);
-
 var startWordTypewriting = function() {
     var typeObject = $('.typewriting');
     typeObject.typed({
         strings: [
             "<span style='color:#F3707C'>hello world!</span>",
             "<span style='color:#E59C5E'>/I'm <span style='color:#BB6DD1'>Asya Lem</span>",
-            "<span style='color:#90B762'>web-designer</span>"
+            "<span style='color:#90B762'>web-developer</span>"
         ],
         typeSpeed: 50,
         backDelay: 1500,
