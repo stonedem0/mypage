@@ -1,3 +1,7 @@
+*{
+     box-sizing: border-box;
+   }
+
 body {
     background-color: #1f2127;
     font-family: 'Droid Sans Mono', Menlo, monospace;
@@ -6,6 +10,7 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+
 }
 a {
     color: #2FAADF
@@ -46,7 +51,8 @@ b, strong {
 
 .aboutskills {
     text-align: center;
-    min-height: 700px;
+    min-height: 650px;
+
 }
 
 /* About Block */
@@ -60,7 +66,7 @@ b, strong {
     text-align: left;
     font-size: 12pt;
     color: #E59C5E;
-    background-color: #272a33;
+    background-color: rgba(39, 42, 51,0.5);
 }
 .aboutblock {
     padding-left: 11%;
@@ -68,10 +74,14 @@ b, strong {
     text-align: left;
     margin-top: 50px;
     font-size: 12pt;
+    border-left:  solid 1px  rgba(39, 42, 51,0.5);
+
+
 }
 .bracket-open {
     color: #b5b5b5;
     font-size: 12pt;
+
 }
 .bracket-close {
     color: #b5b5b5;
@@ -155,18 +165,18 @@ b, strong {
 }
 
 .contactheader {
-    margin-bottom: 1em;
-    color: #BB6DD1;
+    margin-bottom: 10px;
+    color:#2FAADF;
 }
 
 /* Contact form */
 
 form {
-    max-width: 420px;
+    max-width: 360px;
     margin: 50px auto;
 }
 form p {
-    font-size: 18px;
+    font-size: 15px;
 }
 .feedback-input {
     color: #6D6D6D;
@@ -216,9 +226,9 @@ input[type="submit"]:hover {
 }
 
 .onetag {
-    margin: 1em auto;
+    margin: 14% auto;
     color: #90B762;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 .onetag:before {
     content: '</ ';

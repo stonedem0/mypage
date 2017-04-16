@@ -1,48 +1,74 @@
 
 @media screen and (max-width: 320px) {
+
     #home p {
-        font-size: 14pt;
+        font-size: 9pt;
+    }
+    .aboutskills div{
+      width: auto;
+      font-size: 9pt;
+
     }
     .aboutsection {
-        margin-top: 1em;
+      margin-top: 3%;
+
     }
-    .aboutheader {
-        font-size: 8pt;
-    }
-    .aboutblock {
-        font-size: 8pt;
-        margin-top: 1em;
-    }
-    .bracket-open {
-        font-size: 8pt;
-    }
-    .bracket-close {
-        font-size: 8pt;
-    }
-    .progress-bar-wrapper {
-        padding: 0px;
-    }
-    .progress-bar {
-        height: 55%
-    }
-    .progress {
-      margin-bottom: 1em;
-    }
-    .contact {
-      margin-top: -1em;
-    }
-    .contactheader p {
+
+     .aboutblock {
+       margin-top: 2%;
+
+     }
+     .contact div {
+       font-size: 10pt
+
+     }
+    form p {
       font-size: 10pt;
-    }
-    .feedback-input {
+      margin-top: 25%;
 
-      padding: 8px;
-
-    }
-    .social {
-      margin-top: -28px;
     }
     .onetag {
-      margin-top: 17px;
-      font-size: 8pt;
+      margin-top: 6% auto;
+    }
+
+}
+
+    @media screen and (max-width: 520px) {
+      #home p {
+          font-size: 14pt;
+      }
+      .aboutskills div{
+        width: auto;
+        font-size: 10pt;
+
+      }
+      .aboutsection {
+        margin-top: 6%;
+
+      }
+
+       .aboutblock {
+         margin-top: 5%;
+
+       }
+       .contact div {
+         font-size: 8pt
+
+       }
+      form p {
+        font-size: 10pt;
+        margin-top: 25%;
+      }
+      .onetag {
+        margin-top: 6% auto;
+      }
+    }
+
+    @media screen and (max-width: 990px) {
+      .aboutblock {
+        margin-top: 3%;
+    }
+    .aboutsection {
+      margin-top: 4%;
+
     }
